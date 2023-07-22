@@ -1,2 +1,2 @@
-const list=document.querySelector("ul");
-list.remove();
+import areaFunction from "./util.js";
+console.log("Area of the square is as " + areaFunction(4));

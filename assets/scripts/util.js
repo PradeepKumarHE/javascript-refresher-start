@@ -1,1 +1,1 @@
-export let sampleVar='I am Pradeep';
+export default 'I am Pradeep';

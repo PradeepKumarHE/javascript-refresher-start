@@ -1,2 +1,2 @@
-import {sampleVar} from './util.js';
+import sampleVar from './util.js';
 alert(sampleVar);

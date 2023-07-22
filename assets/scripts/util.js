@@ -1,0 +1,1 @@
+export let sampleVar='I am Pradeep';

@@ -1,19 +1,13 @@
-function handleTimeout(){
-    console.log("Time out!");
+const password=prompt("Your Password");
+if(password==="Hello"){
+    console.log("Hello works");
+}else if(password==="Hello"){
+    console.log("Hello works");
+}else{
+    console.log("Access not granted");
 }
 
-const handleTimeout2 = () =>{
-    console.log("Time out! again...");
+const hobbies=["Sports","Cooking"];
+for(const hobby of hobbies){
+    console.log(hobby);
 }
-
-setTimeout(handleTimeout,2000);
-setTimeout(handleTimeout2,3000);
-setTimeout(()=>{
-    console.log("More Time out! again...");
-},4000);
-
-function greeter(greeteFn){
-    greeteFn();
-}
-
-greeter(()=>console.log("hi"));

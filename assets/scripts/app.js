@@ -1,5 +1,5 @@
-function greet(){
-    alert("Hello world")
+function authentication(userName,password){
+    alert(userName);
+    alert(password);
 }
-greet();
-greet();
+authentication("Pradeep","Javascript-Developer");

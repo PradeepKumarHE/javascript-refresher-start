@@ -1,5 +1,5 @@
-function authentication(userName,password){
+function authentication(userName,password="Default Value"){
     alert(userName);
     alert(password);
 }
-authentication("Pradeep","Javascript-Developer");
+authentication("Pradeep");

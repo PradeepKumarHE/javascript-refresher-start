@@ -1,17 +1,23 @@
-const hobbies=["Sports","Cooking","Reading"];
-console.log(hobbies[0]);
+/*const userNameData=["Pradeep","Gowda"];
+let firstName=userNameData[0];
+let lastName=userNameData[1];*/
+const [firstName,lastName]=["Pradeep","Gowda"];
+console.log(firstName);
+console.log(lastName);
 
-hobbies.push("Working");
-console.log(hobbies);
 
-const index=hobbies.findIndex((item)=>{ return item==="Sports"});
-console.log(index);
 
-const index1=hobbies.findIndex((item)=>  item==="Working");
-console.log(index1);
+/*const user={
+    firstName:"Pradeep",
+    lastName:"Gowda"
+};
+console.log(user.firstName);
+console.log(user.lastName);
+*/
 
-const editedHobbies=hobbies.map((item)=>item+" !")
-console.log(editedHobbies);
-
-const editedHobbiesObj=hobbies.map((item)=>({text:item}));
-console.log(editedHobbiesObj);
+const {firstName:name1,lastName:name2}={
+    firstName:"Pradeep",
+    lastName:"Gowda"
+};
+console.log(name1);
+console.log(name2);

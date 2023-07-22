@@ -1,2 +1,5 @@
-import * as util from './util.js';
-alert(util.specialVar);
+function greet(){
+    alert("Hello world")
+}
+greet();
+greet();

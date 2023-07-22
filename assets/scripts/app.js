@@ -1,5 +1,7 @@
-function authentication(userName,password="Default Value"){
-    alert(userName);
-    alert(password);
+function greet(userName,message){
+   return "Hi "+userName+", "+message;
 }
-authentication("Pradeep","Overided Value");
+console.log(greet("Pradeep","How are you?"));
+const greet1=greet("Javascript Developer","How are you?");
+console.log(greet1);
+

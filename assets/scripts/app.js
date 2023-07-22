@@ -1,12 +1,15 @@
-const developer={
-    name:"Pradeep",
-    technology:"JavaScript",
+class User{
+    constructor(name,age){
+        this.name=name;
+        this.age=age;
+    }
     greet(){
         console.log("Hi");
-        console.log(this.technology);
+        
     }
 
 }
-
-console.log(developer.name);
-developer.greet();
+const user1=new User("Pradeep", 34);
+console.log(user1);
+console.log(user1.name);
+user1.greet();

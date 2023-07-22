@@ -1,23 +1,18 @@
-/*const userNameData=["Pradeep","Gowda"];
-let firstName=userNameData[0];
-let lastName=userNameData[1];*/
-const [firstName,lastName]=["Pradeep","Gowda"];
-console.log(firstName);
-console.log(lastName);
+const hobbies=["Sports","Cooking"];
+const newhobbies=["Reading"];
+const mergedhobbiesWithoutSpread=[hobbies,newhobbies];
+console.log(mergedhobbiesWithoutSpread);
+const mergedhobbiesWithSpread=[...hobbies,...newhobbies];
+console.log(mergedhobbiesWithSpread);
 
-
-
-/*const user={
-    firstName:"Pradeep",
-    lastName:"Gowda"
+const user={
+    name:"Pradeep",
+    technolgy:"JavaScript",
 };
-console.log(user.firstName);
-console.log(user.lastName);
-*/
-
-const {firstName:name1,lastName:name2}={
-    firstName:"Pradeep",
-    lastName:"Gowda"
+const extendedUser={
+    isAdmin:true,
+    ...user
 };
-console.log(name1);
-console.log(name2);
+console.log(extendedUser);
+
+
